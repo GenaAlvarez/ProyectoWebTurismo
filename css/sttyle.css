@@ -18,19 +18,20 @@ body {
   top: 0;
   padding: 10px;
 }
-
-.ul-container {
+.nav-container ul {
   list-style: none;
   margin-top: 0;
   display: flex;
   justify-content: end;
 }
-
-.ul-container a {
+.nav-container li a {
   text-decoration: none;
   color: #fff;
   font-size: 30px;
   margin: 20px;
+}
+.nav-container li a:hover {
+  color: #5a5a5a;
 }
 
 .Titulo {
@@ -58,8 +59,7 @@ body {
   width: 900px;
   margin-bottom: 45px;
 }
-
-.info {
+.info-container .info {
   font-size: 25px;
   color: #000000;
 }
@@ -70,8 +70,7 @@ body {
   justify-content: space-around;
   gap: 20px;
 }
-
-.tarjeta-container {
+.contenedor-turismo .tarjeta-container {
   height: 350px;
   width: 500px;
   background-color: #5a5a5a;
@@ -82,23 +81,24 @@ body {
   align-items: start;
   padding: 10px;
 }
-
-.tarjeta-title {
+.contenedor-turismo .tarjeta-container .tarjeta-title {
   font-size: 30px;
   color: #fff;
   margin-bottom: 10px;
 }
-
-.img-tarjeta {
+.contenedor-turismo .tarjeta-container .img-tarjeta {
   height: 200px;
   width: 100%;
   object-fit: cover;
 }
-
-.compra-button {
+.contenedor-turismo .tarjeta-container .compra-button {
   height: 30px;
   margin-bottom: 5px;
   border-radius: 6px;
+}
+.contenedor-turismo .tarjeta-container .compra-button:hover {
+  background-color: #5a5a5a;
+  color: #fff;
 }
 
 .galería-title {
@@ -121,36 +121,28 @@ body {
   height: 100%;
   object-fit: cover;
 }
-
-.img__1 {
+.galería-contenedor .img__1 {
   grid-area: img1;
 }
-
-.img__4 {
+.galería-contenedor .img__4 {
   grid-area: img2;
 }
-
-.img__8 {
+.galería-contenedor .img__8 {
   grid-area: img3;
 }
-
-.img__3 {
+.galería-contenedor .img__3 {
   grid-area: img4;
 }
-
-.img__7 {
+.galería-contenedor .img__7 {
   grid-area: img5;
 }
-
-.img__2 {
+.galería-contenedor .img__2 {
   grid-area: img8;
 }
-
-.img__6 {
+.galería-contenedor .img__6 {
   grid-area: img6;
 }
-
-.img__5 {
+.galería-contenedor .img__5 {
   grid-area: img7;
 }
 
