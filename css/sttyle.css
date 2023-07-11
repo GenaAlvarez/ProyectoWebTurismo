@@ -9,15 +9,18 @@ body{
 }
 .nav-container{
     background-color: #4fd2fa;
-    height: 55px;
-    position: sticky;
+    height: 60px;
+    position: fixed;
+    width: 100%;
     top: 0;
+    padding: 10px;
 }
 .ul-container{
     list-style: none;
     margin-top: 0;
     display: flex;
-    
+    justify-content: end;
+        
 }
 .ul-container a{
     text-decoration: none;
@@ -28,7 +31,7 @@ body{
 }
 
 .Titulo{
-   
+   padding: 40px;
     height: 400px;
     background-image: url(../multimedia/imagenes/paisae3.jpeg);
     background-size: cover;
@@ -40,12 +43,12 @@ body{
     color: #4fd2fa;
 }
 .sub-title{
-    margin-top: 25px;
-    margin-bottom: 25px;
+   margin: 25px 25px;
     font-size: 30px;
     color: #006483;
 }
 .info-container{
+  margin: 25px 25px;
     width: 900px;
     margin-bottom: 45px;
 }
@@ -53,12 +56,23 @@ body{
     font-size: 25px;
     color: #0b9ac5;
 }
+.contenedor-turismo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
 .tarjeta-container{
-    width: 500px;
-    background-color: #0b9ac5;
-    margin: auto;
-    border-radius: 2%;
-    margin-bottom: 20px;
+  height: 350px;
+  width: 500px;
+  background-color: #0b9ac5;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding: 10px;
+  
 }
 
 .tarjeta-title{
@@ -66,18 +80,24 @@ body{
     color: #fff;
     margin-bottom:10px;
 }
-.desc-tarjeta{
-    font-size: 20px;
-    color: #fff;
-}
+
 .img-tarjeta{
-    width: 100%;
-    margin-bottom: 10px;
+   height: 200px;
+   width: 100%;
+   object-fit: cover;
 }
 .compra-button{
     height: 30px;
     margin-bottom: 5px;
+    border-radius: 6px;
 }
+.galería-title{
+  color: #006483;
+  font-size: 30px;
+  margin: 55px 25px; 
+  max-width: 700px;
+}
+
 .footer{
     background-color: #4fd2fa;
     height: 100px;
