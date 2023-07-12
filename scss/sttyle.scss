@@ -1,45 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    box-sizing: border-box;
-}
-body{
-    background-color: #fff;
-}
 
-.nav-container{
-    background-color: #fd9800;
-    height: 60px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    img{
-      height: 57px;
-      width: 100px;
-    }
-                        ul{
-                          list-style: none;
-                          margin-top: 0;
-                          display: flex;
-                          justify-content: end;
-
-                        }
-                        li a {
-                            text-decoration: none;
-                            color: #fff;
-                            font-size: 30px;
-                            margin: 20px;
-                            
-                            &:hover{
-                                color: #5a5a5a;
-                            }
-                       }
-}
+@import "reset";
+@import "navegador";
+@import "footer";
+@import "galeria";
+@import "formulario";
 
 .Titulo{
    padding: 50px;
@@ -113,90 +77,10 @@ body{
   margin: 55px 25px; 
   max-width: 700px;
 }
-.galería-contenedor{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: repeat(6,200px);
-  grid-gap: 10px;
-  grid-template-areas: "img1 img1 img1 img2"
-                       "img1 img1 img1 img2"
-                       "img3 img3 img4 img4"
-                       "img5 img5 img4 img4"
-                       "img7 img6 img8 img8"
-                       "img7 img6 img8 img8";
-}
-.galería-contenedor{
-    img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
 
-    }
-  
-  .img__1{
-    grid-area: img1;
-  }
-  .img__4{
-    grid-area: img2;
-  }
-  .img__8{
-    grid-area: img3;
-  }
-  .img__3{
-    grid-area: img4;
-  }
-  .img__7{
-    grid-area: img5;
-  }
-  .img__2{
-    grid-area: img8;
-  }
-  .img__6{
-    grid-area: img6;
-  }
-  .img__5{
-    grid-area: img7;
-  }
-}
-.footer{
-  background-color: #fd9800;
-  color: #fff;
-  display: grid;
-  grid-template-columns: 2fr 2fr 1fr;
-  column-gap: 10px;
-  padding: 10px;
-  align-items: center;
-   .footer__info{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px;
-    img{
-      width: 400px;
-      height: 200px;
-      float: left;
-    } 
     
-  }
-  .redes {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    i{
-      font-size: 30px;
-    }
-}  
-}
-.contactos{
-  display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px;
-  .map iframe{
-    width: 80%;
-    height: 410px;
-  }
-}
+
+
 
 .contacto a{
     display: block;
@@ -208,68 +92,7 @@ body{
     font-size: 30px;
     color: #006483;
 }
- .container-form{
-   width: 100%;
-   max-width: 1100px;
-   margin: auto;
-   display: grid;
-   grid-template-columns: repeat(2,1fr),;
-   grid-gap: 50px;
-   margin-top: 90px;
-   
-    h2{
-      margin-bottom: 15px;
-      font-size: 35px;     }
-     
-    p{
-      font-size: 17px;
-      line-height: 1.6;
-      margin-bottom: 30px;
-    }
-    a{
-      font-size: 17px;
-      display: inline-block;
-      text-decoration: none;
-      width: 100%;
-      margin-bottom: 15px;
-      color: #000;
-      font-weight: 700;
-      .iconos{
-        margin-right: 15px;
-        color: #fd9800;
-      } 
-    }
-    form .campo, textarea{
-      width: 100%;
-      padding: 15px 10px;
-      font-size: 17px;
-      border: 1px solid #dbdbdb;
-      margin-bottom: 20px;
-      border-radius: 5px;
-      outline: opx;
-    }
-    form textarea{
-      max-width: 530px;
-      min-width: 530px;
-      max-height: 150px;
-      min-height: 140px;
-    }
-    .btn-enviar{
-      padding: 15px;
-      font-size: 16px;
-      border: none;
-      outline: 0px;
-      background-color: #fd9800;
-      color: #fff;
-      border-radius: 3px;
-      margin-bottom: 10px;
-      cursor: pointer;
-      transition: all 0,3 ease;
-      &:hover{
-        background-color: #ac6a07;
-      }
-    }
- }
+ 
 
  
 
