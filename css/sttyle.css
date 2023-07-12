@@ -12,7 +12,6 @@
   position: fixed;
   width: 100%;
   top: 0;
-  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -37,9 +36,43 @@
   color: #5a5a5a;
 }
 
+.menu {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .nav-container {
     position: static;
+  }
+}
+@media (max-width: 576px) {
+  .nav-container ul {
+    position: fixed;
+    background-color: #fd9800;
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: -500px;
+    transition: 0.5s;
+  }
+  .nav-container ul li a {
+    color: #fff;
+  }
+  ul:hover {
+    right: 0px;
+  }
+  .menu {
+    display: block;
+    font-size: 25px;
+    color: #fff;
+    margin: 5px;
+  }
+  .menu:hover + ul {
+    right: 0;
   }
 }
 .footer {
