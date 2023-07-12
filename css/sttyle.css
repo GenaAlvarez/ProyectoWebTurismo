@@ -11,12 +11,19 @@ body {
 }
 
 .nav-container {
-  background-color: #000;
+  background-color: #fd9800;
   height: 60px;
   position: fixed;
   width: 100%;
   top: 0;
   padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-container img {
+  height: 57px;
+  width: 100px;
 }
 .nav-container ul {
   list-style: none;
@@ -35,8 +42,8 @@ body {
 }
 
 .Titulo {
-  padding: 40px;
-  height: 400px;
+  padding: 50px;
+  height: 430px;
   background-image: url(../multimedia/imagenes/paisae3.jpeg);
   background-size: cover;
   background-attachment: fixed;
@@ -51,7 +58,7 @@ body {
 .sub-title {
   margin: 25px 25px;
   font-size: 30px;
-  color: #000;
+  color: #ac6a07;
 }
 
 .info-container {
@@ -73,7 +80,7 @@ body {
 .contenedor-turismo .tarjeta-container {
   height: 350px;
   width: 500px;
-  background-color: #5a5a5a;
+  background-color: #fd9800;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -147,20 +154,43 @@ body {
 }
 
 .footer {
-  background-color: #4fd2fa;
-  height: 100px;
-}
-
-.footer p {
+  background-color: #fd9800;
   color: #fff;
-  font-size: 25px;
-  text-align: center;
-  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  column-gap: 10px;
+  padding: 10px;
+  align-items: center;
+}
+.footer .footer__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.footer .footer__info img {
+  width: 400px;
+  height: 200px;
+  float: left;
+}
+.footer .redes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.footer .redes i {
+  font-size: 30px;
 }
 
-.links {
-  text-decoration: none;
-  text-align: center;
+.contactos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.contactos .map iframe {
+  width: 80%;
+  height: 410px;
 }
 
 .contacto a {
@@ -229,6 +259,7 @@ body {
   background-color: #fd9800;
   color: #fff;
   border-radius: 3px;
+  margin-bottom: 10px;
   cursor: pointer;
   transition: all 0, 3 ease;
 }
