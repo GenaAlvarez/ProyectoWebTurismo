@@ -249,9 +249,11 @@
   justify-content: center;
   padding: 10px;
   height: 430px;
-  background-image: url(../multimedia/imagenes/palacio-gyeongbokgung-otono-corea-sur.jpg);
+  background-image: url(../multimedia/imagenes/cielo-nublado-rosa.jpg);
   background-size: cover;
   background-attachment: fixed;
+  object-fit: cover;
+  margin-bottom: 10px;
 }
 
 .Titulo h1 {
@@ -342,6 +344,12 @@
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+}
+
+.carousel-item img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=sttyle.css.map */
