@@ -36,7 +36,7 @@
   color: #5a5a5a;
 }
 
-.menu {
+.nav-container .menu {
   display: none;
 }
 
@@ -64,6 +64,9 @@
   }
   ul:hover {
     right: 0px;
+  }
+  .nav-container .menu {
+    display: block;
   }
   .menu {
     display: block;

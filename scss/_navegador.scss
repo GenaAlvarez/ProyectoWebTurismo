@@ -13,7 +13,7 @@
       height: 57px;
       width: 100px;
     }
-    
+   
                         ul{
                           list-style: none;
                           margin-top: 0;
@@ -31,12 +31,12 @@
                                 color: #5a5a5a;
                             }
                        }
-                      
-                      
+                       
 }
-.menu{
+.nav-container .menu{
   display: none;
 }
+
 
 
 
@@ -47,6 +47,7 @@
 }
 
 @media (max-width:576px){
+ 
   .nav-container ul{
     position: fixed;
     background-color: #fd9800;
@@ -70,7 +71,9 @@
   ul:hover{
     right: 0px;
   }
- 
+  .nav-container .menu{
+    display: block;
+  }
   .menu{
     display: block;
     font-size: 25px;
@@ -81,7 +84,9 @@
       right: 0;
     }
   }
-    
+  
+ 
+  
   
   
   }
