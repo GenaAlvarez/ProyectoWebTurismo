@@ -12,8 +12,7 @@
        font-size: 35px;     }
       
      p{
-       font-size: 17px;
-       line-height: 1.6;
+       font-size: 17px;      
        margin-bottom: 30px;
      }
      a{
@@ -59,4 +58,13 @@
          background-color: #ac6a07;
        }
      }
+  }
+  @media (max-width:768px) {
+    .container-form{
+      grid-template-columns:1fr;
+      grid-template-rows: 4;
+    }
+    .btn-enviar{
+      grid-row: 4/5;
+    }
   }

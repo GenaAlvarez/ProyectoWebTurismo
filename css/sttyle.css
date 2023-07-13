@@ -15,6 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 1;
 }
 .nav-container img {
   height: 57px;
@@ -49,7 +50,7 @@
   .nav-container ul {
     position: fixed;
     background-color: #fd9800;
-    width: 80vw;
+    width: 80%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -187,7 +188,6 @@
 }
 .container-form p {
   font-size: 17px;
-  line-height: 1.6;
   margin-bottom: 30px;
 }
 .container-form a {
@@ -234,18 +234,30 @@
   background-color: #ac6a07;
 }
 
+@media (max-width: 768px) {
+  .container-form {
+    grid-template-columns: 1fr;
+    grid-template-rows: 4;
+  }
+  .btn-enviar {
+    grid-row: 4/5;
+  }
+}
 .Titulo {
-  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
   height: 430px;
-  background-image: url(../multimedia/imagenes/paisae3.jpeg);
+  background-image: url(../multimedia/imagenes/palacio-gyeongbokgung-otono-corea-sur.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
 
 .Titulo h1 {
-  width: 400px;
-  font-size: 155px;
-  color: #4fd2fa;
+  max-width: 400px;
+  font-size: 90px;
+  color: #fd9800;
 }
 
 .sub-title {
@@ -256,7 +268,6 @@
 
 .info-container {
   margin: 25px 25px;
-  width: 900px;
   margin-bottom: 45px;
 }
 .info-container .info {
@@ -308,38 +319,29 @@
   max-width: 700px;
 }
 
-.contacto a {
-  display: block;
-  text-decoration: none;
-  font-size: 30px;
-  color: #0b9ac5;
-}
-
-.contacto h2 {
-  font-size: 30px;
-  color: #006483;
-}
-
 .nosotros {
   font-size: 30px;
-  color: #006483;
+  color: #fd9800;
 }
 
 .nosotros-info {
   font-size: 25px;
-  color: #0b9ac5;
+  color: #000;
   margin-top: 15px;
+  border: #fd9800 2px solid;
 }
 
 .ubicación {
-  font-size: 20px;
-  color: #4fd2fa;
+  font-size: 30px;
+  color: #fd9800;
   margin-top: 10px;
 }
 
 .map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=sttyle.css.map */
