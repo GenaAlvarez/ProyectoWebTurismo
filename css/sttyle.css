@@ -68,6 +68,7 @@
   }
   .nav-container .menu {
     display: block;
+    z-index: 1;
   }
   .menu {
     display: block;
@@ -350,6 +351,12 @@
   height: 500px;
   width: 100%;
   object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .carousel {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=sttyle.css.map */
