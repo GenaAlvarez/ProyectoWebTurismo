@@ -1,6 +1,9 @@
 
 @import "reset";
+@import "variables";
+@import "extend";
 @import "navegador";
+@import "tarjeta"; 
 @import "footer";
 @import "galeria";
 @import "formulario";
@@ -22,7 +25,7 @@
 .Titulo h1{
     max-width:  400px; 
     font-size: 90px;
-    color: #fd9800;
+    color: $bg-color;
 }
 .sub-title{
    margin: 25px 25px;
@@ -35,7 +38,7 @@
     margin-bottom: 45px;
     .info{
         font-size: 25px;
-        color: #000000;
+        color: $bg-color-secondary;
     }
 }
 
@@ -45,41 +48,10 @@
   justify-content: space-around;
   gap: 20px;
   
-  .tarjeta-container{
-    height: 350px;
-    width: 500px;
-    background-color: #fd9800;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: start;
-    padding: 10px;
-        .tarjeta-title{
-        font-size: 30px;
-        color: #fff;
-        margin-bottom:10px;       
-              }
-                .img-tarjeta{
-                    height: 200px;
-                    width: 100%;
-                    object-fit: cover;
-                 }
-                .compra-button{
-                   height: 30px;
-                   margin-bottom: 5px;
-                   border-radius: 6px;
-                   &:hover{
-                    background-color: #5a5a5a;
-                    color: #fff;
-                   }
-                 }   
-    
   }
-}
 
 .galería-title{
-  color: #000;
+  color: $bg-color-secondary;
   font-size: 30px;
   margin: 55px 25px; 
   max-width: 700px;
@@ -97,17 +69,17 @@
 
   .nosotros{
     font-size: 30px;
-    color:#fd9800;
+    color:$bg-color;
   }
   .nosotros-info{
     font-size: 25px;
-    color: #000;
+    color: $bg-color-secondary;
     margin-top: 15px;
-    border: #fd9800 2px solid;
+    border: $bg-color 2px solid;
   }
   .ubicación{
     font-size: 30px;
-    color: #fd9800;
+    color: $bg-color;
     margin-top: 10px;
   }
   .map{

@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+.btn, .tarjeta-container .compra-button {
+  height: 30px;
+  margin-bottom: 5px;
+  border: 0;
+  border-radius: 6px;
+  padding: 5px;
+}
+
 .nav-container {
   background-color: #fd9800;
   height: 60px;
@@ -80,6 +88,32 @@
     right: 0;
   }
 }
+.tarjeta-container {
+  height: 350px;
+  width: 500px;
+  background-color: #fd9800;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding: 10px;
+}
+.tarjeta-container .tarjeta-title {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.tarjeta-container .img-tarjeta {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.tarjeta-container .compra-button:hover {
+  background-color: #5a5a5a;
+  color: #fff;
+}
+
 .footer {
   background-color: #fd9800;
   color: #fff;
@@ -275,7 +309,7 @@
 }
 .info-container .info {
   font-size: 25px;
-  color: #000000;
+  color: #000;
 }
 
 .contenedor-turismo {
@@ -283,36 +317,6 @@
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 20px;
-}
-.contenedor-turismo .tarjeta-container {
-  height: 350px;
-  width: 500px;
-  background-color: #fd9800;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: start;
-  padding: 10px;
-}
-.contenedor-turismo .tarjeta-container .tarjeta-title {
-  font-size: 30px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.contenedor-turismo .tarjeta-container .img-tarjeta {
-  height: 200px;
-  width: 100%;
-  object-fit: cover;
-}
-.contenedor-turismo .tarjeta-container .compra-button {
-  height: 30px;
-  margin-bottom: 5px;
-  border-radius: 6px;
-}
-.contenedor-turismo .tarjeta-container .compra-button:hover {
-  background-color: #5a5a5a;
-  color: #fff;
 }
 
 .galería-title {

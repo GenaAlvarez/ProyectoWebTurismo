@@ -21,7 +21,7 @@
        text-decoration: none;
        width: 100%;
        margin-bottom: 15px;
-       color: #000;
+       color: $bg-color-secondary;
        font-weight: 700;
        .iconos{
          margin-right: 15px;
@@ -48,7 +48,7 @@
        font-size: 16px;
        border: none;
        outline: 0px;
-       background-color: #fd9800;
+       background-color: $bg-color;
        color: #fff;
        border-radius: 3px;
        margin-bottom: 10px;

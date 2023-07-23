@@ -1,5 +1,5 @@
 .nav-container{
-    background-color: #fd9800;
+    background-color: $bg-color;
     height: 60px;
     position: fixed;
     width: 100%;
@@ -53,7 +53,7 @@
  
   .nav-container ul{
     position: fixed;
-    background-color: #fd9800;
+    background-color: $bg-color;
     width: 80%;
     height: 100vh;
     display: flex;

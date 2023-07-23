@@ -1,0 +1,29 @@
+.tarjeta-container{
+    height: 350px;
+    width: 500px;
+    background-color: $bg-color;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 10px;
+        .tarjeta-title{
+        font-size: 30px;
+        color: #fff;
+        margin-bottom:10px;       
+              }
+                .img-tarjeta{
+                    height: 200px;
+                    width: 100%;
+                    object-fit: cover;
+                 }
+                .compra-button{
+                   @extend .btn;
+                   &:hover{
+                    background-color: #5a5a5a;
+                    color: #fff;
+                   }
+                 }   
+    
+  }
