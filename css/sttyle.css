@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-.btn, .tarjeta-container .compra-button {
+.tarjeta-container .compra-button {
   height: 30px;
   margin-bottom: 5px;
   border: 0;

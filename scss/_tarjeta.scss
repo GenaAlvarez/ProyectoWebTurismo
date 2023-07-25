@@ -19,7 +19,7 @@
                     object-fit: cover;
                  }
                 .compra-button{
-                   @extend .btn;
+                   @extend %btn;
                    &:hover{
                     background-color: #5a5a5a;
                     color: #fff;
