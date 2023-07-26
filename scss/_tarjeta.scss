@@ -1,29 +1,35 @@
 .tarjeta-container{
-    height: 350px;
-    width: 500px;
+    height: 500px;
+    width: 470px;
     background-color: $bg-color;
-    border-radius: 5px;
+    border-radius: 10%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
     padding: 10px;
-        .tarjeta-title{
-        font-size: 30px;
-        color: #fff;
-        margin-bottom:10px;       
-              }
-                .img-tarjeta{
-                    height: 200px;
-                    width: 100%;
-                    object-fit: cover;
-                 }
-                .compra-button{
-                   @extend %btn;
-                   &:hover{
-                    background-color: #5a5a5a;
-                    color: #fff;
-                   }
-                 }   
+    border: $bg-color-secondary 2px solid;
+    &:hover{
+      transform: scale(1.2);
+      
     
+    }
+                  .tarjeta-title{
+                  font-size: 30px;
+                  color: #fff;
+                  margin-bottom:10px;      
+                   }
+                      .img-tarjeta{
+                          height: 300px;
+                          width: 100%;
+                          object-fit: cover;
+                   }
+                      .compra-button{
+                          @extend %btn;
+                          &:hover{
+                          background-color: #5a5a5a;
+                          color: #fff;
+                           }
+                   }   
+                  
   }

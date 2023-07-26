@@ -11,19 +11,22 @@
 
 .Titulo{
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding: 10px;
-   height: 430px;
-   background-image: url(../multimedia/imagenes/cielo-nublado-rosa.jpg);
-   background-size: cover;
-   background-attachment: fixed;
+  height: 530px;
+  background-image: url(../multimedia/imagenes/cielo-nublado-rosa.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   object-fit: cover; 
   margin-bottom: 10px;
+  text-shadow: 2px 2px 2px #CE5937;
 }
    
 .Titulo h1{
-    max-width:  400px; 
+    max-width:  800px; 
     font-size: 90px;
     color: $bg-color;
 }
