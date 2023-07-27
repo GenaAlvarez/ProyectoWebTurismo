@@ -99,20 +99,25 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  border: #000 2px solid;
+  transition: 1s;
 }
 .tarjeta-container:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
+  opacity: 0.9;
+  transition: 1s;
 }
 .tarjeta-container .tarjeta-title {
   font-size: 30px;
   color: #fff;
   margin-bottom: 10px;
+  text-shadow: 4px 3px 0px #7A7A7A;
 }
 .tarjeta-container .img-tarjeta {
   height: 300px;
   width: 100%;
   object-fit: cover;
+  border-radius: 10%;
+  border: #fff 2px solid;
 }
 .tarjeta-container .compra-button:hover {
   background-color: #5a5a5a;
@@ -265,7 +270,7 @@
   outline: 0px;
   background-color: #fd9800;
   color: #fff;
-  border-radius: 3px;
+  border-radius: 5px;
   margin-bottom: 10px;
   cursor: pointer;
   transition: all 0, 3 ease;
@@ -290,7 +295,7 @@
   align-items: center;
   justify-content: center;
   padding: 10px;
-  height: 530px;
+  height: 550px;
   background-image: url(../multimedia/imagenes/cielo-nublado-rosa.jpg);
   background-size: cover;
   background-attachment: fixed;

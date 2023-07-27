@@ -2,6 +2,7 @@
 @import "reset";
 @import "variables";
 @import "extend";
+@import "mixin";
 @import "navegador";
 @import "tarjeta"; 
 @import "footer";
@@ -16,7 +17,7 @@
   align-items: center;
   justify-content: center;
   padding: 10px;
-  height: 530px;
+  height: 550px;
   background-image: url(../multimedia/imagenes/cielo-nublado-rosa.jpg);
   background-size: cover;
   background-attachment: fixed;
