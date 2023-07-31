@@ -128,7 +128,7 @@
   background-color: #fd9800;
   color: #fff;
   display: grid;
-  grid-template-columns: 2fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
   column-gap: 10px;
   padding: 10px;
   align-items: center;
@@ -160,8 +160,9 @@
   padding: 10px;
 }
 .contactos .map iframe {
-  width: 80%;
-  height: 410px;
+  width: 60%;
+  height: 350px;
+  border-radius: 50px;
 }
 
 @media (max-width: 1200px) {
@@ -229,14 +230,14 @@
 }
 .container-form h2 {
   margin-bottom: 15px;
-  font-size: 35px;
+  font-size: 55px;
 }
 .container-form p {
-  font-size: 17px;
+  font-size: 25px;
   margin-bottom: 30px;
 }
 .container-form a {
-  font-size: 17px;
+  font-size: 20px;
   display: inline-block;
   text-decoration: none;
   width: 100%;
@@ -308,6 +309,7 @@
   max-width: 800px;
   font-size: 90px;
   color: #fd9800;
+  text-align: center;
 }
 
 .sub-title {
@@ -340,21 +342,27 @@
 }
 
 .nosotros {
-  font-size: 30px;
+  font-size: 50px;
   color: #fd9800;
+  text-align: center;
+  margin: 30px;
+  text-shadow: 2px 2px 2px #CE5937;
 }
 
-.nosotros-info {
+.nosotros__desc {
   font-size: 25px;
   color: #000;
-  margin-top: 15px;
-  border: #fd9800 2px solid;
+  border: #fd9800 4px solid;
+  max-width: 900px;
+  margin: auto;
 }
 
-.ubicación {
+.nosotros__info {
   font-size: 30px;
   color: #fd9800;
-  margin-top: 10px;
+  margin: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #CE5937;
 }
 
 .map {

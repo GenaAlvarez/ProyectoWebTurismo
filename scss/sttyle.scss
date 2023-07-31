@@ -30,6 +30,7 @@
     max-width:  800px; 
     font-size: 90px;
     color: $bg-color;
+    text-align: center;
 }
 .sub-title{
    margin: 25px 25px;
@@ -72,19 +73,25 @@
 
 
   .nosotros{
-    font-size: 30px;
+    font-size: 50px;
     color:$bg-color;
+    text-align: center;
+    margin: 30px ;
+    text-shadow: 2px 2px 2px #CE5937;
   }
-  .nosotros-info{
+  .nosotros__desc{
     font-size: 25px;
     color: $bg-color-secondary;
-    margin-top: 15px;
-    border: $bg-color 2px solid;
+    border: $bg-color 4px solid;
+    max-width: 900px;
+    margin: auto;
   }
-  .ubicación{
+  .nosotros__info{
     font-size: 30px;
     color: $bg-color;
-    margin-top: 10px;
+    margin: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #CE5937;
   }
   .map{
    display: flex;
