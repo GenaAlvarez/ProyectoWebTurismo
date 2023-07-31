@@ -9,7 +9,7 @@
     align-items: center;
     padding: 10px;
     transition: 1s;
-    
+    border: $bg-color-secondary 2px solid;
     &:hover{
       transform: scale(1.05); 
       opacity: calc(0.9); 
@@ -22,7 +22,7 @@
                   text-shadow: 4px 3px 0px #7A7A7A;    
                    }
                       .img-tarjeta{
-                          height: 300px;
+                          height: 350px;
                           width: 100%;
                           object-fit: cover;
                           border-radius: 10%;
