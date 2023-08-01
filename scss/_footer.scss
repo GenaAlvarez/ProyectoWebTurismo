@@ -9,7 +9,7 @@
      .footer__info{
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: start;
       align-items: start;
       gap: 10px;
       padding: 10px;
@@ -26,6 +26,9 @@
       gap: 10px;
       i{
         font-size: 30px;
+        &:hover{
+          color: #5a5a5a;
+        }
       }
   }  
   }
