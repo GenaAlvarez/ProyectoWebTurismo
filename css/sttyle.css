@@ -239,10 +239,12 @@
 .container-form h2 {
   margin-bottom: 15px;
   font-size: 55px;
+  color: #fd9800;
 }
 .container-form p {
   font-size: 25px;
   margin-bottom: 30px;
+  max-width: 400px;
 }
 .container-form a {
   font-size: 20px;
@@ -312,10 +314,53 @@
   margin-bottom: 10px;
   text-shadow: 2px 2px 2px #CE5937;
 }
-
 .Titulo h1 {
   max-width: 800px;
   font-size: 90px;
+  color: #fd9800;
+  text-align: center;
+}
+
+.Titulo__contacto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 550px;
+  background-image: url(../multimedia/imagenes/cielo-nublado-rosa.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  object-fit: cover;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 2px #CE5937;
+}
+.Titulo__contacto h1 {
+  max-width: 800px;
+  font-size: 65px;
+  color: #fd9800;
+  text-align: center;
+}
+
+.Titulo__nosotros {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 550px;
+  background-image: url(../multimedia/imagenes/cielo-nublado-rosa.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  object-fit: cover;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 2px #CE5937;
+}
+.Titulo__nosotros h1 {
+  max-width: 800px;
+  font-size: 65px;
   color: #fd9800;
   text-align: center;
 }
@@ -358,7 +403,7 @@
 }
 
 .nosotros__desc {
-  font-size: 25px;
+  font-size: 20px;
   color: #000;
   border: #fd9800 4px solid;
   max-width: 900px;
@@ -389,6 +434,9 @@
 @media (max-width: 576px) {
   .carousel {
     display: none;
+  }
+  .Titulo__contacto h1 {
+    font-size: 70px;
   }
 }
 
