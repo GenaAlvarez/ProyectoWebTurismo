@@ -1,7 +1,7 @@
 .tarjeta-container{
     height: 500px;
     width: 470px;
-    background-color: $bg-color;
+    background-color: #fff;
     border-radius: 10%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     align-items: center;
     padding: 10px;
     transition: 1s;
-    border: $bg-color-secondary 2px solid;
+    border: $bg-color 2px solid;
     &:hover{
       transform: scale(1.05); 
       opacity: calc(0.9); 
@@ -17,21 +17,21 @@
     }
                   .tarjeta-title{
                   font-size: 30px;
-                  color: #fff;
+                  color: $bg-color;
                   margin-bottom:10px;  
-                  text-shadow: 4px 3px 0px #7A7A7A;    
+                  
                    }
                       .img-tarjeta{
                           height: 350px;
                           width: 100%;
                           object-fit: cover;
                           border-radius: 10%;
-                          border: #fff 2px solid;
+                          border: $bg-color 2px solid;
                    }
                       .compra-button{
                           @extend %btn;
                           &:hover{
-                          background-color: #5a5a5a;
+                          background-color: #b65709;
                           color: #fff;
                            }
                    }   

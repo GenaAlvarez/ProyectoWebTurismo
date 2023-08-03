@@ -15,7 +15,7 @@
       padding: 10px;
       img{
         width: 400px;
-        height: 200px;
+        height: 300px;
         float: left;
       } 
       
@@ -23,9 +23,9 @@
     .redes {
       display: flex;
       justify-content: center;
-      gap: 10px;
+      gap: 20px;
       i{
-        font-size: 30px;
+        font-size: 40px;
         &:hover{
           color: #5a5a5a;
         }

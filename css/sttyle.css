@@ -13,6 +13,8 @@
   border: 0;
   border-radius: 6px;
   padding: 5px;
+  background-color: #fd9800;
+  color: #fff;
 }
 
 .nav-container {
@@ -92,7 +94,7 @@
 .tarjeta-container {
   height: 500px;
   width: 470px;
-  background-color: #fd9800;
+  background-color: #fff;
   border-radius: 10%;
   display: flex;
   flex-direction: column;
@@ -100,7 +102,7 @@
   align-items: center;
   padding: 10px;
   transition: 1s;
-  border: #000 2px solid;
+  border: #fd9800 2px solid;
 }
 .tarjeta-container:hover {
   transform: scale(1.05);
@@ -109,19 +111,18 @@
 }
 .tarjeta-container .tarjeta-title {
   font-size: 30px;
-  color: #fff;
+  color: #fd9800;
   margin-bottom: 10px;
-  text-shadow: 4px 3px 0px #7A7A7A;
 }
 .tarjeta-container .img-tarjeta {
   height: 350px;
   width: 100%;
   object-fit: cover;
   border-radius: 10%;
-  border: #fff 2px solid;
+  border: #fd9800 2px solid;
 }
 .tarjeta-container .compra-button:hover {
-  background-color: #5a5a5a;
+  background-color: #b65709;
   color: #fff;
 }
 
@@ -144,16 +145,16 @@
 }
 .footer .footer__info img {
   width: 400px;
-  height: 200px;
+  height: 300px;
   float: left;
 }
 .footer .redes {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
 }
 .footer .redes i {
-  font-size: 30px;
+  font-size: 40px;
 }
 .footer .redes i:hover {
   color: #5a5a5a;
