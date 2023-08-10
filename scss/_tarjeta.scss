@@ -22,11 +22,11 @@
                   
                    }
                       .img-tarjeta{
-                          height: 350px;
-                          width: 100%;
-                          object-fit: cover;
-                          border-radius: 10%;
-                          border: $bg-color 2px solid;
+                        height: 350px;
+                        width: 100%;
+                        object-fit: cover;
+                        border-radius: 10%;
+                        border: $bg-color 2px solid;
                    }
                       .compra-button{
                           @extend %btn;

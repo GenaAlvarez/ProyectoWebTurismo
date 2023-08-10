@@ -127,6 +127,7 @@
 }
 
 .footer {
+  font-size: 20px;
   background-color: #fd9800;
   color: #fff;
   display: grid;
