@@ -201,7 +201,7 @@
 }
 @media (max-width: 480px) {
   .footer p {
-    max-width: 270px;
+    max-width: 280px;
   }
   .footer .footer__info img {
     width: 300px;
@@ -515,6 +515,12 @@ body {
   }
   .Titulo__contacto h1 {
     font-size: 50px;
+  }
+  .Titulo h1 {
+    font-size: 50px;
+  }
+  .sub-title {
+    font-size: 30px;
   }
 }
 
