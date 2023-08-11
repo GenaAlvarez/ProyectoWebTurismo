@@ -10,13 +10,16 @@
      h2{
        margin-bottom: 15px;
        font-size: 55px;
-       color: $bg-color;   
+       color: #fff;
+       text-shadow: 2px 2px 2px #000 
       }
       
      p{
        font-size: 25px;      
        margin-bottom: 30px;
        max-width: 400px;
+       color: #fff;
+       font-weight: 700;
      }
      a{
        font-size: 20px;
@@ -24,11 +27,11 @@
        text-decoration: none;
        width: 100%;
        margin-bottom: 15px;
-       color: $bg-color-secondary;
+       color: #fff;
        font-weight: 700;
        .iconos{
          margin-right: 15px;
-         color: #fd9800;
+         color: $bg-color-secondary;
        } 
      }
      form .campo, textarea{
@@ -42,9 +45,7 @@
      }
      form textarea{
        max-width: 530px;
-       min-width: 530px;
        max-height: 150px;
-       min-height: 140px;
      }
      .btn-enviar{
       @include boton(5px,10px)

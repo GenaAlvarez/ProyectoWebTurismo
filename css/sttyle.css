@@ -104,6 +104,10 @@
   transition: 1s;
   border: #fd9800 2px solid;
 }
+.tarjeta-container a {
+  width: 100%;
+  text-align: center;
+}
 .tarjeta-container:hover {
   transform: scale(1.05);
   opacity: 0.9;
@@ -119,7 +123,6 @@
   width: 100%;
   object-fit: cover;
   border-radius: 10%;
-  border: #fd9800 2px solid;
 }
 .tarjeta-container .compra-button:hover {
   background-color: #b65709;
@@ -137,6 +140,7 @@
 }
 .footer .footer__info {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: start;
   align-items: start;
@@ -246,12 +250,15 @@
 .container-form h2 {
   margin-bottom: 15px;
   font-size: 55px;
-  color: #fd9800;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
 }
 .container-form p {
   font-size: 25px;
   margin-bottom: 30px;
   max-width: 400px;
+  color: #fff;
+  font-weight: 700;
 }
 .container-form a {
   font-size: 20px;
@@ -259,12 +266,12 @@
   text-decoration: none;
   width: 100%;
   margin-bottom: 15px;
-  color: #000;
+  color: #fff;
   font-weight: 700;
 }
 .container-form a .iconos {
   margin-right: 15px;
-  color: #fd9800;
+  color: #000;
 }
 .container-form form .campo, .container-form textarea {
   width: 100%;
@@ -277,9 +284,7 @@
 }
 .container-form form textarea {
   max-width: 530px;
-  min-width: 530px;
   max-height: 150px;
-  min-height: 140px;
 }
 .container-form .btn-enviar {
   padding: 15px;
