@@ -321,6 +321,11 @@
     grid-row: 4/5;
   }
 }
+@media (max-width: 480px) {
+  .container-form h2 {
+    font-size: 45px;
+  }
+}
 .carousel-item img {
   height: 600px;
   width: 100%;
@@ -507,6 +512,9 @@ body {
 @media (max-width: 480px) {
   .Titulo__nosotros h1 {
     font-size: 40px;
+  }
+  .Titulo__contacto h1 {
+    font-size: 50px;
   }
 }
 

@@ -61,3 +61,12 @@
       grid-row: 4/5;
     }
   }
+  @media(max-width:480px){
+    .container-form{
+      h2{
+        font-size: 45px;
+
+      }
+      
+    }
+  }
