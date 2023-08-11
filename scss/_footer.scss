@@ -69,4 +69,19 @@
         grid-column: auto;
     }
   }
+  @media(max-width:480px){
+      .footer{
+        p{
+          max-width: 270px;
+        }
+        
+        .footer__info{
+          img{
+            width: 300px;
+            height: 200px;
+            float:left;
+          }
+        }
+      }
+    }
  

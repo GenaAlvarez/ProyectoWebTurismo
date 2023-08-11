@@ -9,6 +9,7 @@
 @import "galeria";
 @import "formulario";
 @import "carousel";
+@import "videos";
 
 body{
    background-color: #FFA500;
@@ -78,6 +79,8 @@ body{
       text-align: center;
   }
 }
+
+
    
 
 .sub-title{
@@ -113,27 +116,28 @@ body{
   font-weight: 700;
   text-shadow: 2px 2px 2px #000000
 }
-  .nosotros{
+  .nosotros__subtitle{
     font-size: 50px;
-    color:$bg-color;
+    color:#fff;
     text-align: center;
     margin: 30px ;
-    text-shadow: 2px 2px 2px #CE5937;
+    text-shadow: 2px 2px 2px #000;
   }
   .nosotros__desc{
-    font-size: 20px;
-    color: $bg-color-secondary;
-    border: $bg-color 4px solid;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
     max-width: 900px;
     margin: auto;
   }
   .nosotros__info{
-    font-size: 30px;
-    color: $bg-color;
-    margin: 30px;
+    font-size: 40px;
+    color: #fff;
+    margin: 20px;
     text-align: center;
-    text-shadow: 2px 2px 2px #CE5937;
+    text-shadow: 2px 2px 2px #000;
   }
+  
  
   
   @media (max-width:576px) {
@@ -142,4 +146,11 @@ body{
       font-size: 70px;
     }
     
+  }
+  @media (max-width:480px){
+    .Titulo__nosotros{
+      h1{
+        font-size: 40px;
+      }
+    }
   }
