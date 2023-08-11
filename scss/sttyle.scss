@@ -8,8 +8,11 @@
 @import "footer";
 @import "galeria";
 @import "formulario";
+@import "carousel";
 
-
+body{
+   background-color: #FFA500;
+}
 .Titulo{
   display: flex;
   flex-direction: column;
@@ -78,17 +81,19 @@
    
 
 .sub-title{
-   margin: 25px 25px;
-    font-size: 30px;
-    color: #ac6a07;
+    font-weight: 700;
+    margin: 25px 25px;
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000000
 }
 .info-container{
-  margin: 25px 25px;
-    
+    margin: 25px 25px;   
     margin-bottom: 45px;
     .info{
-        font-size: 25px;
-        color: $bg-color-secondary;
+        font-size: 30px;
+        color: #fff;
+        font-weight: 600;
     }
 }
 
@@ -101,22 +106,13 @@
   }
 
 .galería-title{
-  color: $bg-color-secondary;
+  color: #fff;
   font-size: 30px;
   margin: 55px 25px; 
   max-width: 700px;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px #000000
 }
-
-    
-
-
-
-
- 
-
- 
-
-
   .nosotros{
     font-size: 50px;
     color:$bg-color;
@@ -138,22 +134,10 @@
     text-align: center;
     text-shadow: 2px 2px 2px #CE5937;
   }
-  .map{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-top: 20px; 
-  }
+ 
   
-  .carousel-item img{
-    height: 500px;
-    width: 100%;
-    object-fit: cover;
-  }
   @media (max-width:576px) {
-    .carousel{
-      display: none;
-    }
+   
     .Titulo__contacto h1{
       font-size: 70px;
     }

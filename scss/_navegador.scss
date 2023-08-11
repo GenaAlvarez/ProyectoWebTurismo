@@ -63,6 +63,7 @@
     top: 0;
     right: -500px;
     transition: 0.5s;
+    z-index: 1;
     
     
     li a{
@@ -76,23 +77,19 @@
   }
   .nav-container .menu{
     display: block;
-    z-index: 1;
+    
   }
   .menu{
     display: block;
     font-size: 25px;
     color: #fff;
     margin: 5px;
+    
    
     &:hover+ ul{
       right: 0;
     }
   }
-  
-  
- 
-  
-  
   
   }
   
